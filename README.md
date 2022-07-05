@@ -1,9 +1,16 @@
 # node-red-contrib-siemens-sentron
-Node-RED nodes to read electrical measures from Siemens SENTRON series over Modbus TCP/IP.
-## Node-RED configurator to read Siemens SENTRON series over Modbus TCP/IP
+Node-RED nodes to read electrical measures from [Siemens SENTRON](https://new.siemens.com/global/en/products/energy/low-voltage/components/sentron-measuring-devices-and-power-monitoring.html) series over Modbus TCP/IP.
+## Table of Contents
+* [Install](#install)
+* [How to use](#how-to-use)
+* [Supported devices](#supported-devices)
+* [Usage](#usage)
+* [Meters data](#meters-data)
+* [Equipment compatibility](#equipment-compatibility)
+---
 
 ## Install
-You can install these nodes directly from the **Manage Palette** menu in the Node-RED interface.
+You can install these nodes directly from the **Manage Palette** menu in the [Node-RED](https://nodered.org/) interface.
 
 Alternatively, run the following command in your Node-RED user directory - typically `~/.node-red` on Linux or `%HOMEPATH%\.nodered` on Windows
 
@@ -53,9 +60,25 @@ Wire the second output of the `Modbus Flex Getter` to the input of the `getter`.
 
 ### RF devices
 + 5SL6 COM
-
++ 5SV6 COM
++ 5ST3 COM
++ 3NA COM
 
 ## Usage
+### Device type
+![data-config](docs/device-conf.png)
+
+### Meter data 
+![data-config](docs/data-conf.png)
+
+### Message object 
+![data-config](docs/message-format.png)
+
+### Sample flow
+![sample-flow](docs/sample-flow.png)
+
+
+## Meters data
 List of **PAC2200** meter data:
 
 | Measure                            | Units                 | Type            | 
@@ -133,20 +156,9 @@ List of **7KN Powercenter 1000** meter data:
 
 Set unit IDs (1 .. 24) for paired circuit protection devices. 
 
-### Device type
-![data-config](docs/device-conf.png)
-
-### Meter data 
-![data-config](docs/data-conf.png)
-
-### Message object 
-![data-config](docs/message-format.png)
-
-### Sample flow
-![sample-flow](docs/sample-flow.png)
-
 ## Equipment compatibility
 
 These modules have been developed and tested on:
 + SENTRON PAC2200
 + 7KN Powercenter 1000 with 5SL6 COM
+

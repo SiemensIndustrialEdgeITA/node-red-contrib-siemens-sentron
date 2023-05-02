@@ -130,16 +130,16 @@ List of **PAC2200** meter data:
 |  Reactive energy import            | varh                  | Float 32        |
 |  Active energy export              | Wh                    | Float 32        |
 |  Reactive energy export            | varh                  | Float 32        |
-|  Active energy import tariff 1     | Wh                    | Double          |
-|  Active energy import tariff 2     | Wh                    | Double          |
-|  Active energy export tariff 1     | Wh                    | Double          |
-|  Active energy export tariff 2     | Wh                    | Double          |
-|  Reactive energy import tariff 1   | varh                  | Double          |
-|  Reactive energy import tariff 2   | varh                  | Double          |
-|  Reactive energy export tariff 1   | varh                  | Double          |
-|  Reactive energy export tariff 2   | varh                  | Double          |
-|  Apparent energy tariff 1          | VAh                   | Double          |
-|  Apparent energy tariff 2          | VAh                   | Double          |
+|  Active energy import tariff 1     | kWh                   | Double          |
+|  Active energy import tariff 2     | kWh                   | Double          |
+|  Active energy export tariff 1     | kWh                   | Double          |
+|  Active energy export tariff 2     | kWh                   | Double          |
+|  Reactive energy import tariff 1   | kvarh                 | Double          |
+|  Reactive energy import tariff 2   | kvarh                 | Double          |
+|  Reactive energy export tariff 1   | kvarh                 | Double          |
+|  Reactive energy export tariff 2   | kvarh                 | Double          |
+|  Apparent energy tariff 1          | kVAh                  | Double          |
+|  Apparent energy tariff 2          | kVAh                  | Double          |
 
 
 List of **7KN Powercenter 1000** meter data:
@@ -157,10 +157,10 @@ List of **7KN Powercenter 1000** meter data:
 |  Apparent power L                  | VA                    | Float 32        |
 |  Reactive power L                  | var                   | Float 32        |
 |  Power factor L                    | -                     | Float 32        |
-|  Imported active energy            | Wh                    | Float 64        |
-|  Exported actie energy             | Wh                    | Float 64        |
-|  Imported reactive energy          | varh                  | Float 64        |
-|  Exported reactive energy          | varh                  | Float 64        |
+|  Imported active energy            | kWh                   | Float 64        |
+|  Exported actie energy             | kWh                   | Float 64        |
+|  Imported reactive energy          | kvarh                 | Float 64        |
+|  Exported reactive energy          | kvarh                 | Float 64        |
 |  Protection device status          | -                     | Unsigned int 16 |
 |  Alarms status                     | -                     | Unsigned int 32 |
 |  Mechanical operating cycles       | -                     | Float 32        |

@@ -474,7 +474,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyImpTariff1";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "pac2200";
                 break;
                 case 35:
@@ -487,7 +487,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyImpTariff2";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "pac2200";
                 break;
                 case 36:
@@ -500,7 +500,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyExpTariff1";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "pac2200";
                 break;
                 case 37:
@@ -513,7 +513,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyExpTariff2";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "pac2200";
                 break;
                 case 38:
@@ -526,7 +526,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyImpTariff1";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "pac2200";
                 break;
                 case 39:
@@ -539,7 +539,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyImpTariff2";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "pac2200";
                 break;
                 case 40:
@@ -552,7 +552,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyExpTariff1";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "pac2200";
                 break;
                 case 41:
@@ -565,7 +565,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyExpTariff2";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "pac2200";
                 break;
                 case 42:
@@ -578,7 +578,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "appEnergyTariff1";
                   res.format = "double";
-                  res.unit = "VAh";
+                  res.unit = "kVAh";
                   res.model = "pac2200";
                 break;
                 case 43:
@@ -591,7 +591,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "appEnergyTariff2";
                   res.format = "double";
-                  res.unit = "VAh";
+                  res.unit = "kVAh";
                   res.model = "pac2200";
                 break; 
               }
@@ -8491,7 +8491,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyImp";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "5sl6com";
                 break;
                 case 12:
@@ -8504,7 +8504,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyExp";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "5sl6com";
                 break;
                 case 13:
@@ -8517,7 +8517,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyImp";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "5sl6com";
                 break;
                 case 14:
@@ -8530,7 +8530,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyExp";
                    res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "5sl6com";
                 break;
                 /*
@@ -8760,7 +8760,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyImp";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "5sv6com";
                 break;
                 case 12:
@@ -8773,7 +8773,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "actEnergyExp";
                   res.format = "double";
-                  res.unit = "Wh";
+                  res.unit = "kWh";
                   res.model = "5sv6com";
                 break;
                 case 13:
@@ -8786,7 +8786,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyImp";
                   res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "5sv6com";
                 break;
                 case 14:
@@ -8799,7 +8799,7 @@ module.exports = function(RED) {
                       };
                   res.topic = "reactEnergyExp";
                    res.format = "double";
-                  res.unit = "varh";
+                  res.unit = "kvarh";
                   res.model = "5sv6com";
                 break;
                 /*

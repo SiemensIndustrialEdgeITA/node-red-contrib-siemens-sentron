@@ -171,6 +171,11 @@ Set unit IDs (1 .. 24) for paired circuit protection devices.
 
 ## Equipment compatibility
 
+Compare the values obtained with the measures on the installed device and report any bugs such as:
++ measured value error
++ measured value format
++ unit of measure
+
 These modules have been developed and tested on:
 + SENTRON PAC2200
 + 7KN Powercenter 1000 with 5SL6 COM
